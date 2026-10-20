@@ -1,11 +1,8 @@
 package model.service;
 
 import model.entity.Pessoa;
-import model.entity.Tarefa;
 
-import java.util.ArrayList;
 import java.util.HashSet;
-import java.util.List;
 import java.util.Set;
 
 public class PessoaService {
@@ -34,7 +31,8 @@ public class PessoaService {
 
 
 
-    Set<Tarefa> tarefasDeCasa = new HashSet<>();
+
+
 
 
 }

@@ -1,20 +1,23 @@
 import controller.PessoaController;
-import model.entity.Tarefa;
+import controller.TarefaController;
+import model.entity.TarefaStatus;
 import model.service.PessoaService;
 
 void main() {
 
-    //PessoaService pessoaService = new PessoaService();
-   // PessoaController pessoaController = new PessoaController(pessoaService);
+    PessoaService pessoaService = new PessoaService();
+    PessoaController pessoaController = new PessoaController(pessoaService);
 
 
-   // pessoaController.criarPessoa();
+   pessoaController.criarPessoa();
 
 
 
-        Tarefa tarefa = Tarefa.PENDENTE;
+     //   TarefaStatus tarefa = TarefaStatus.PENDENTE;
 
-        IO.println(tarefa);
-    }
+
+    //    IO.println(tarefa);
+   // TarefaController.criarTarefa();
+}
 
 
